@@ -6,7 +6,7 @@ module "ec2" {
   source = "../../modules/ec2"
 
   ami           = "ami-00e801948462f718a"
-  instance_type = "t3.micro"
+  instance_type = "t3.large"
   name          = "dev-server"
   env           = "dev"
 }
